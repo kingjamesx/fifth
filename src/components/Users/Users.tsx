@@ -2,7 +2,7 @@ import { useState } from "react";
 import UserCard from "../Base/UserCard";
 import { useQuery } from "react-query";
 import { UserService } from "../../services/User/user.services";
-import useUserStore from "../../../store/UserStore";
+import useUserStore from "../../../store/userStore";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import Switch from "../Base/Switch";

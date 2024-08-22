@@ -3,7 +3,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineWifiCalling3 } from "react-icons/md";
 
 import Button from "./Button";
-import useUserStore from "../../../store/UserStore";
+import useUserStore from "../../../store/userStore";
 import { User } from "../../types/backend";
 interface IUserCard {
   user: User;

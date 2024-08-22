@@ -1,5 +1,5 @@
 import { useState } from "react";
-import useUserStore from "../../../store/UserStore";
+import useUserStore from "../../../store/userStore";
 import { FaArrowLeft, FaCloudDownloadAlt } from "react-icons/fa";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";

@@ -1,6 +1,7 @@
 import React from "react";
 import { IoSearch } from "react-icons/io5";
-import useUserStore from "../../../store/UserStore";
+// import useUserStore from "../../../store/UserStore";
+import useUserStore from "../../../store/userStore";
 interface ISearchInput {
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   className?: string;

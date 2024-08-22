@@ -5,7 +5,7 @@ import { FaFemale } from "react-icons/fa";
 import UserButton from "../Base/Button";
 import SearchInput from "../Base/SearchInput";
 import Users from "../Users/Users";
-import useUserStore from "../../../store/UserStore";
+import useUserStore from "../../../store/userStore";
 import UserDetails from "../Users/UserDetails";
 import { useQuery } from "react-query";
 import { UserService } from "../../services/User/user.services";
