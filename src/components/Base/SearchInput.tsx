@@ -13,7 +13,7 @@ const SearchInput = ({ onChange, className, contentClass }: ISearchInput) => {
     <div
       className={`flex items-center gap-2  p-2 rounded-2xl h-16 bg-[#7C7F8D] ${className}`}
     >
-      <IoSearch className="text-[#454856] text-2xl" />
+      <IoSearch className="text-[#454856] text-2xl" data-testid="search-icon" />
       <input
         type="text"
         placeholder="Find a user"

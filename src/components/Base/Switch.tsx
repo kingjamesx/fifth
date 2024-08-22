@@ -14,6 +14,7 @@ const Switch = ({ onClick, label }: ISwitch) => {
   return (
     <div className="flex items-center gap-2">
       <div
+        role="button"
         onClick={toggleSwitch}
         className={`w-14 h-7 flex items-center rounded-full p-1 cursor-pointer transition-colors duration-300 ${
           isOn ? "bg-[#30bbb5]" : "bg-gray-400"
